@@ -1,0 +1,30 @@
+[project]
+name = "ipo-bot"
+version = "0.1.0"
+description = "A bot that collects data on IPOs conducted in different regions of the world."
+authors = [
+    {name = "Abramov Egor"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiogram==3.17.0",
+    "asyncio==3.4.3",
+    "bs4==0.0.2",
+    "httpx==0.28.1",
+    "ipython==8.30.0",
+    "loguru==0.7.3",
+    "matplotlib==3.9.2",
+    "numpy==2.1.3",
+    "pandas==2.2.3",
+    "pendulum==3.0.0",
+    "poetry==2.1.1",
+    "python-dotenv==1.0.1",
+    "PyYAML==6.0.2",
+    "tenacity==9.0.0",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

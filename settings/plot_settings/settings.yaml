@@ -1,0 +1,16 @@
+# general_settings
+labelsize_x_ticks_monthly: 12
+labelsize_x_ticks_yearly: 17
+color_sign_axis: '#232420'
+labelsize_y_ticks_yearly: 17
+labelsize_y_ticks_monthly: 17
+color_plot: '#DAA521'
+value_labelsize_monthly: 42
+value_labelsize_yearly: 42
+text_fontsize: 10
+title_fontsize_monthly: 15
+header_offset_monthly: 1.04
+title_fontsize_yearly: 15
+header_offset_yearly: 1.04
+
+
